@@ -35,6 +35,6 @@ unzip ZAP_2.7.0_Crossplatform.zip
 cd ZAP_2.7.0
 
 echo "[+] Running ZAP Daemon mode"
-java -jar zap-2.7.0.jar -daemon &> /dev/null
+java -jar zap-2.7.0.jar -daemon > /dev/null & 
 
 echo "[+] localhost:8080"
