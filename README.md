@@ -1,5 +1,8 @@
 # buildpack-zap-daemon
-zap(zed attack proxy) daemon mode buildpack of heroku
+zap(zed attack proxy) daemon mode buildpack of heroku<br>
+<a href="https://heroku.com/deploy?template=https://github.com/hahwul/buildpack-zap-daemon">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 
 ## Composed
 ```
