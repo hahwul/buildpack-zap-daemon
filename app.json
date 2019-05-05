@@ -1,6 +1,6 @@
 {
-  "name": "ZAP(Zed Attack Proxy) buildpack on heroku",
-  "description": "ZAP(Zed Attack Proxy) buildpack on heroku",
+  "name": "ZAP(Zed Attack Proxy) daemon mode buildpack on heroku",
+  "description": "ZAP(Zed Attack Proxy) daemon mode buildpack on heroku(Install Java, ZAP and running ZAP Daemon mode",
   "repository": "https://github.com/hahwul/buildpack-zap-daemon",
   "keywords": ["Secuirty", "Hacking", "ZAP"]
 }
