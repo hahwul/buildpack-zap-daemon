@@ -28,13 +28,13 @@ echo 'export PATH="$HOME/.jdk/bin:$PATH"' >> $PROFILE_PATH
 echo 'export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Djava.rmi.server.useCodebaseOnly=true"' >> $PROFILE_PATH
 
 echo "[+] Install ZAP"
-mkdir zap-build
-cd zap-build
+mkdir /app/zap-build
+cd /app/zap-build
 wget https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Crossplatform.zip
 unzip ZAP_2.7.0_Crossplatform.zip
 cd ZAP_2.7.0
 
 echo "[+] Running ZAP Daemon mode"
-java -jar zap-2.7.0.jar -daemon &
+java -jar zap-2.7.0.jar -daemon -config api.disablekey=true &
 
 echo "[+] localhost:8080"
