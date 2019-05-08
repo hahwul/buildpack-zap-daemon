@@ -32,6 +32,7 @@ mkdir ${BUILD_DIR}/ZAP
 cd ${BUILD_DIR}/ZAP
 wget https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Crossplatform.zip
 unzip ZAP_2.7.0_Crossplatform.zip
+rm ZAP_2.7.0_Crossplatform.zip
 cd ZAP_2.7.0
 
 echo "[+] Running ZAP Daemon mode"
